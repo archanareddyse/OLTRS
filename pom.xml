@@ -6,14 +6,14 @@
   <groupId>org.kmit</groupId>
   <artifactId>OLTRS</artifactId>
   <packaging>war</packaging>
-  <version>0.O.1-SNAPSHOT</version> 
+  <version>0.O.1-SNAPSHOT<version> 
 
   <name>OLTRS Maven Webapp</name>
   <url>http://maven.apache.org</url>
 
   <dependencies>
    <dependency>
-      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
       <artifactId>junit</artifactId>
       <version>abc</version> 
       <scope>test</scope>
@@ -34,10 +34,7 @@
       <artifactId>fakelib</artifactId>
       <version>1.0.0</version>
     </dependency>
-    <dependency>
-      <groupId>javax.servlet</groupId>
-      <artifactId>servlet-api</artifactId>
-    </dependency>
+   
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-core-xx</artifactId>
@@ -50,6 +47,6 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>OLTRS!!</finalName>
+    <finalNames>OLTRS!!</finalNames>
   </build>
 </project>
