@@ -3,23 +3,18 @@
 
 
 name: Maven Build and Docker Hub Push
-
 on:
   push:
     branches:
       - '**'
-
   pull_request:
-
   workflow_dispatch:
-
 permissions:
   contents: read
-
+  packages: write
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       # 1. Checkout source code
       - name: Checkout source code
